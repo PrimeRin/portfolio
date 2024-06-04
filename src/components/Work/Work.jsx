@@ -7,6 +7,7 @@ import Shopify from '../../img/Shopify.png';
 import Facebook from '../../img/Facebook.png';
 import { themeContext } from "../../Context";
 import { useContext } from "react";
+import { motion } from "framer-motion";
 
 const Work = () => {
   const theme = useContext(themeContext);
@@ -28,7 +29,13 @@ const Work = () => {
         <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div>
       </div>
       <div className="w-right">
-        <div className="w-mainCircle">
+        <motion.div 
+        whileInView={{rotate: 0}}
+        initial={{rotate: 45}}
+        transition={{duration: 3.5, type: 'spring'}}
+        viewport={{margin: '-40px'}}
+        className="w-mainCircle"
+        >
           <div className="w-secCircle">
             <img src={Upwork} alt="" />
           </div>
@@ -50,7 +57,7 @@ const Work = () => {
           <div className="w-backCircle yellowCircle">
             
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
