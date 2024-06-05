@@ -8,7 +8,7 @@ import Github from '@iconscout/react-unicons/icons/uil-github';
 const Footer = () => {
   return (
     <div className="footer">
-        <img src={Wave} alt='' style={{width:'100%'}}/>
+        <img src={Wave} alt='' style={{width:'100%'}} className='wave-img'/>
         <div className="f-content">
             <span>primedruk312@gmail.com</span>
             <div className="f-icons">

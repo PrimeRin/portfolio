@@ -22,3 +22,32 @@
     display: flex;
     gap: 2rem;
 }
+
+@media  screen and (max-width: 480px) {
+    .footer{
+        display: flex;
+        align-items: center;
+        margin: 0px;
+        position: relative;
+        margin-top: -2rem;
+    }
+
+    .f-content{
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+
+    .f-icons{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .f-icons svg {
+        width: 2rem; 
+        height: 2rem; 
+    }
+
+    .wave-img{
+        height: 30vh;
+    }
+}
