@@ -14,22 +14,22 @@ const Testimonials = () => {
     {
       img: profilePic1,
       review:
-        "Working with him on our web development project has been an absolute pleasure. They transformed our vision into a stunning, user-friendly website that has received rave reviews from our clients. Their expertise, creativity, and attention to detail are second to none. Highly recommended!",
+        "Working with him on our web development project has been an absolute pleasure. They transformed our vision into a stunning, user-friendly website that has received rave reviews from our clients.",
     },
     {
       img: profilePic2,
       review:
-        "I can't thank Prime enough for their outstanding work on our website. They took our outdated site and turned it into a modern, responsive masterpiece. The increase in traffic and user engagement is a testament to their skill and dedication. A fantastic web developer!",
+        "I can't thank Prime enough for their outstanding work on our website. They took our outdated site and turned it into a modern, responsive masterpiece.",
     },
     {
       img: profilePic3,
       review:
-        "He is an exceptional web developer who truly understands the needs of their clients. They were able to take our ideas and turn them into a fully functional, aesthetically pleasing website that exceeded our expectations. Their professionalism and expertise are unmatched. We couldn't be happier!",
+        "He is an exceptional web developer who truly understands the needs of their clients. They were able to take our ideas and turn them into a fully functional and pleasing website that exceeded our expectations.",
     },
     {
       img: profilePic4,
       review:
-        "Choosing him for our web development project was the best decision we made. They delivered a high-quality website on time and within budget, and their communication throughout the project was excellent. Our new site has significantly improved our online presence. Thank you for your outstanding work!",
+        "Choosing him for our web development project was the best decision we made. They delivered a high-quality website on time and within budget, and their communication throughout the project was excellent.",
     },
   ];
   
