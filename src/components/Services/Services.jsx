@@ -20,10 +20,9 @@ const Services = () => {
         <span style={{color: darkMode? 'white': ''}}>My Awesome</span>
         <span>services</span>
         <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
-          officia.
+        Offers a range of exceptional web development services designed to help businesses thrive online. 
           <br />
-          Lorem ipsum dolor sit amet.
+         Expertise includes responsive design, custom & secure development.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -40,7 +39,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Lorem ipsum dolor sit amet consectetur sll loreme"}
+            detail={"Expert in creating visually appealing designs using Figma, Sketch, Photoshop, and Adobe Illustrator."}
           />
         </motion.div>
 
@@ -53,7 +52,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"HTML, CSS, JS, React Lorem ipsum dolor sit amet consectetur sll loreme ehehe eheheh ehehhe eheh"}
+            detail={"Proficient in HTML, CSS, and JavaScript, with a strong focus on building responsive and dynamic web applications using React."}
           />
         </motion.div>
 
@@ -65,8 +64,8 @@ const Services = () => {
          >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
-            detail={"Lorem ipsum dolor sit amet consectetur sll loreme ehehe eheheh ehehhe eheh "}
+            heading={"Database"}
+            detail={"Experienced in database management and optimization, with expertise in SQL and NoSQL databases."}
           />
         </motion.div>
         <div

@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Portfolio.css"
 import { Swiper, SwiperSlide } from 'swiper/react'
-import Sidebar from '../../img/sidebar.png';
 import Ecommerce from '../../img/ecommerce.png';
-import HOC from '../../img/hoc.png';
 import MusicApp from '../../img/musicapp.png';
+import ObjectRecognition from '../../img/object-recognition.png';
+import InstagramClone from '../../img/instagram-clone.png';
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import 'swiper/css'
@@ -18,13 +18,17 @@ const Portfolio = () => {
         <span>Portfolio</span>
         <Swiper spaceBetween={30} slidesPerView={3} grabCursor={true} className="portfolio-slider">
             <SwiperSlide>
-                <img src={Sidebar} alt="" />
+                <a href='https://github.com/PrimeRin/TraditionalBhutaneseWood-CaneDetectionWebApp?tab=readme-ov-file'>
+                <img src={ObjectRecognition} alt="" />
+                </a>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={Ecommerce} alt="" />
+            <a href='https://github.com/PrimeRin/instagram-clone'>
+            <img src={InstagramClone} alt="" />
+                </a>    
             </SwiperSlide>
             <SwiperSlide>
-                <img src={HOC} alt="" />
+              <img src={Ecommerce} alt="" />  
             </SwiperSlide>
             <SwiperSlide>
                 <img src={MusicApp} alt="" />

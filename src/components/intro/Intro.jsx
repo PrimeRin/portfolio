@@ -5,7 +5,7 @@ import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import boy from "../../img/me.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
@@ -32,9 +32,15 @@ function Intro() {
         </div>
         <button className="button i-button">Hire Me</button>
         <div className="i-icons">
+          <a href="https://github.com/PrimeRin">
           <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
+          </a>
+         <a href="https://medium.com/@primedruk312">
+         <img src={LinkedIn} alt="" />
+         </a>
+          <a href="https://www.instagram.com/walther.alanxander/">
           <img src={Instagram} alt="" />
+         </a>
         </div>
       </div>
       <div className="i-right">
@@ -65,7 +71,7 @@ function Intro() {
         style={{top: '18rem', left: '0rem'}}
         className="floating-div"
         >
-          <FloatingDiv image={thumbup} txt1={"Best Design"} txt2={"Award"} />
+          <FloatingDiv image={thumbup} txt1={"Responsive Web"} txt2={"Design"} />
         </motion.div>
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div

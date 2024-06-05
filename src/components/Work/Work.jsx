@@ -1,10 +1,10 @@
 import React from "react";
 import "./Work.css";
-import Upwork from '../../img/Upwork.png';
-import Fiverr from '../../img/fiverr.png';
-import Amazon from '../../img/amazon.png';
-import Shopify from '../../img/Shopify.png';
-import Facebook from '../../img/Facebook.png';
+import Upwork from "../../img/rails.png";
+import Fiverr from "../../img/react.png";
+import Amazon from "../../img/kuber.png";
+import Shopify from "../../img/sql.png";
+import Facebook from "../../img/express.png";
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
@@ -15,26 +15,31 @@ const Work = () => {
   return (
     <div className="work">
       <div className="awesome">
-        <span style={{color: darkMode? 'white': ''}}>Works for All these</span>
+        <span style={{ color: darkMode ? "white" : "" }}>
+          Works for All these
+        </span>
         <span>Brands & Clients</span>
         <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
-          officia.
+          With extensive experience in modern web technologies. 
           <br />
-          Lorem ipsum dolor sit amet.
+          Their expertise in Django and Express allows them to build robust
+          back-end systems., 
           <br />
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum ad, voluptas a corrupti quo dolor eum adipisci reiciendis minus.
+          Additionally, their proficiency with Ruby on Rails. 
+          <br />
+          Also well-versed in working with various
+          databases, including SQL and NoSQL.
         </span>
         <button className="button s-button">Hire Me</button>
         <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div>
       </div>
       <div className="w-right">
-        <motion.div 
-        whileInView={{rotate: 0}}
-        initial={{rotate: 45}}
-        transition={{duration: 3.5, type: 'spring'}}
-        viewport={{margin: '-40px'}}
-        className="w-mainCircle"
+        <motion.div
+          whileInView={{ rotate: 0 }}
+          initial={{ rotate: 45 }}
+          transition={{ duration: 3.5, type: "spring" }}
+          viewport={{ margin: "-40px" }}
+          className="w-mainCircle"
         >
           <div className="w-secCircle">
             <img src={Upwork} alt="" />
@@ -51,12 +56,8 @@ const Work = () => {
           <div className="w-secCircle">
             <img src={Facebook} alt="" />
           </div>
-          <div className="w-backCircle blueCircle">
-
-          </div>
-          <div className="w-backCircle yellowCircle">
-            
-          </div>
+          <div className="w-backCircle blueCircle"></div>
+          <div className="w-backCircle yellowCircle"></div>
         </motion.div>
       </div>
     </div>
